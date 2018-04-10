@@ -1,6 +1,6 @@
 {
 	"name": "is-binary-array",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "The fastest way to check if an array contains binary digits only",
 	"license": "MIT",
 	"repository": "jeffminsungkim/is-binary-array",
@@ -19,10 +19,13 @@
 		"index.js"
 	],
 	"keywords": [
+		"check",
 		"array",
 		"contain",
 		"binary",
-		"bit"
+		"bit",
+		"one",
+		"zero"
 	],
 	"dependencies": {},
 	"devDependencies": {

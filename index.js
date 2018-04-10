@@ -1,10 +1,12 @@
 'use strict';
-module.exports = (input, opts) => {
-	if (typeof input !== 'string') {
-		throw new TypeError(`Expected a string, got ${typeof input}`);
+module.exports = input => {
+	if (Object.prototype.toString.call(input) !== '[object Array]') {
+		throw new TypeError(`Expected an array, got ${typeof input}`);
 	}
-
-	opts = opts || {};
-
-	return input + ' & ' + (opts.postfix || 'rainbows');
+	for (let i = input.length - 1; i >= 0; --i) {
+		if (input[i] !== 0 && input[i] !== 1) {
+			return false;
+		}
+	}
+	return true;
 };

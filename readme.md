@@ -15,30 +15,24 @@ $ npm install is-binary-array
 ```js
 const isBinaryArray = require('is-binary-array');
 
-isBinaryArray('unicorns');
-//=> 'unicorns & rainbows'
+isBinaryArray([0]);
+//=> true
+
+isBinaryArray([0, 1, 1, 0]);
+//=> true
+
+isBinaryArray([0, 1, 1, 8]);
+//=> false
+
+isBinaryArray([100]);
+//=> false
+
+isBinaryArray([-1, 0, 1]);
+//=> false
+
+isBinaryArray(123);
+//=> 'Expected an array, got number'
 ```
-
-
-## API
-
-### isBinaryArray(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
-
 
 ## License
 

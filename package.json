@@ -1,6 +1,6 @@
 {
 	"name": "is-binary-array",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "The fastest way to check if an array contains binary digits only",
 	"license": "MIT",
 	"repository": "jeffminsungkim/is-binary-array",

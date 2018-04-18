@@ -40,5 +40,5 @@ MIT © [JeffMinsungKim](https://jeffminsungkim.com)
 
 [Build Status]: https://travis-ci.org/jeffminsungkim/is-binary-array.svg?branch=master
 [Travis URL]: https://travis-ci.org/jeffminsungkim/is-binary-array
-[Node Version]: https://img.shields.io/node/v/string-left-number-right.svg?label=works%20on%20node
-[Node URL]: https://www.npmjs.com/package/string-left-number-right
+[Node Version]: https://img.shields.io/node/v/is-binary-array.svg?label=works%20on%20node
+[Node URL]: https://www.npmjs.com/package/is-binary-array
